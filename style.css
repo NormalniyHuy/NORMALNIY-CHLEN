@@ -1,0 +1,3464 @@
+@media (max-width: 1920px) {
+@font-face {
+    font-family: 'CenturyGothic-Bold';
+    src: url('CenturyGothic/CenturyGothic-Bold.eotCenturyGothic-Bold.eot');
+    src: url('CenturyGothic/CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('CenturyGothic/CenturyGothic-Bold.woff') format('woff'),
+    url('CenturyGothic/CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+html {
+    max-width: 1920px;
+    height: 3448px;
+    overflow-x: hidden;
+}
+body {
+    background-color: #f5f5f6;
+    
+}
+.smartjpg {
+    position: absolute;
+    top: 0px;
+    left: 518px;
+}
+.background_body {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 2;
+}
+.header {
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #232323;
+    width: 100%;
+    height: 61px;
+}
+.logo {
+    z-index: 1;
+    position: fixed;
+    top: 8px;
+    left: 196px;
+    height: 43px;
+    width: 43px;
+}
+.sota {
+    z-index: 1;
+    font-family: 'CenturyGothic-Bold';
+    color: white;
+    font-size: 17pt;
+    letter-spacing: 0px;
+    position: fixed;
+    top: -12px;
+    left: 238px;
+}
+.service {
+    z-index: 1;
+    font-family: 'CenturyGothic-Bold';
+    color: #d6cb1d;
+    font-size: 10pt;
+    letter-spacing: 3.5px;
+    position: fixed;
+    top: 21px;
+    left: 242px;
+}
+.choosePhone{
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 11pt;
+    letter-spacing: 0.25px;
+    color: white;
+    position: fixed;
+    left: 372px;
+    top: 7px;
+}
+.Xiaomi {
+    z-index: 1;
+    height: 34px;
+    width: 33px;
+    position: fixed;
+    top: 20px;
+    left: 624px;
+}
+.Xiaomi img{
+    z-index: 1;
+    height: 34px;
+    width: 33px;
+    position: fixed;
+    top: 13px;
+    left: 624px;
+}
+.Apple {
+    z-index: 1;
+    height: 29px;
+    width: 33px;
+    position: fixed;
+    top: 13px;
+    left: 678px;
+}
+.Apple img{
+    z-index: 1;
+    height: 29px;
+    width: 33px;
+    position: fixed;
+    top: 13px;
+    left: 674px;
+}
+.phoneNumber {
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 11pt;
+    letter-spacing: 0.3px;
+    color: white;
+    position: fixed;
+    left: 1140px;
+    top: 21px;
+}
+.checkStatus {
+    z-index: 1;
+    position: fixed;
+    left: 1320px;
+    top: 14px;
+    background-color: #599a49;
+    border-radius: 15px;
+    border-color: #599a49;
+    border-style: none; 
+    height: 31px;
+    width: 220px;
+    cursor: pointer;
+}
+.checkStatus p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 9pt;
+    letter-spacing: 0px;
+    color: white;
+    position: fixed;
+    left: 1346px;
+    top: 9px;
+}
+.checkStatus:hover {
+    background-color: #3c6330;
+}
+
+input {
+    text-align: center;
+}
+
+.Xiaomidropdown {
+    display: none;
+    position: fixed;
+    top: 31px;
+    left: 260px;
+}
+.Xiaomi:hover ~ .Xiaomidropdown  {
+    display: block;
+    position: fixed;
+    top: 31px;
+    left: 312px;
+}
+.Xiaomidropdown:hover {
+    display: block;
+    position: fixed;
+    top: 31px;
+    left: 312px;
+}
+.Xiaomidropdown img{
+ 
+    position: fixed;
+    top: 31px;
+    left: 260px;
+}
+.XiaomiList1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 366px;
+    line-height: 23px;
+}
+
+.XiaomiList2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 497px;
+    line-height: 23px;
+}
+.XiaomiList3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 629px;
+    line-height: 23px;
+}
+.XiaomiList4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 783px;
+    line-height: 23px;
+}
+.XiaomiList5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 948px;
+    line-height: 23px;
+}
+.XiaomiList6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 1112px;
+    line-height: 23px;
+}
+.XiaomiList7 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 1274px;
+    line-height: 23px;
+}
+
+.XiaomiList1 a {
+    text-decoration: none;
+    color: black;
+}
+.XiaomiList1 a:hover {
+    text-decoration: underline;
+}
+.XiaomiList2 a {
+    text-decoration: none;
+    color: black;
+}
+.XiaomiList2 a:hover {
+    text-decoration: underline;
+}
+.XiaomiList3 a {
+    text-decoration: none;
+    color: black;
+}
+.XiaomiList3 a:hover {
+    text-decoration: underline;
+}
+.XiaomiList4 a {
+    text-decoration: none;
+    color: black;
+}
+.XiaomiList4 a:hover {
+    text-decoration: underline;
+}
+.XiaomiList5 a {
+    text-decoration: none;
+    color: black;
+}
+.XiaomiList5 a:hover {
+    text-decoration: underline;
+}
+.XiaomiList6 a {
+    text-decoration: none;
+    color: black;
+}
+.XiaomiList6 a:hover {
+    text-decoration: underline;
+}
+.XiaomiList7 a {
+    text-decoration: none;
+    color: black;
+}
+.XiaomiList7 a:hover {
+    text-decoration: underline;
+}
+
+/*.AppleDropdownOn {
+    display: block;
+}
+.AppleDropdownOff {
+    display: none;
+}*/
+
+.dropdownApple {
+    display: none;
+    position: fixed;
+    top: 31px;
+    left: 312px;
+}
+.Apple:hover ~ .dropdownApple {
+    display: block;
+    position: fixed;
+    top: 31px;
+    left: 312px;
+}
+.dropdownApple:hover {
+    display: block;
+    position: fixed;
+    top: 31px;
+    left: 312px;
+}
+.AppleList1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 407px;
+    line-height: 23px;
+}
+
+.AppleList2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 545px;
+    line-height: 23px;
+}
+.AppleList3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 678px;
+    line-height: 23px;
+}
+.AppleList4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 814px;
+    line-height: 23px;
+}
+.AppleList5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 987px;
+    line-height: 23px;
+}
+.AppleList6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 1149px;
+    line-height: 23px;
+}
+.AppleList7 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    left: 1313px;
+    line-height: 23px;
+}
+
+.AppleList1 a {
+    text-decoration: none;
+    color: black;
+}
+.AppleList1 a:hover {
+    text-decoration: underline;
+}
+.AppleList2 a {
+    text-decoration: none;
+    color: black;
+}
+.AppleList2 a:hover {
+    text-decoration: underline;
+}
+.AppleList3 a {
+    text-decoration: none;
+    color: black;
+}
+.AppleList3 a:hover {
+    text-decoration: underline;
+}
+.AppleList4 a {
+    text-decoration: none;
+    color: black;
+}
+.AppleList4 a:hover {
+    text-decoration: underline;
+}
+.AppleList5 a {
+    text-decoration: none;
+    color: black;
+}
+.AppleList5 a:hover {
+    text-decoration: underline;
+}
+.AppleList6 a {
+    text-decoration: none;
+    color: black;
+}
+.AppleList6 a:hover {
+    text-decoration: underline;
+}
+.AppleList7 a {
+    text-decoration: none;
+    color: black;
+}
+.AppleList7 a:hover {
+    text-decoration: underline;
+}
+.Xiaomidropdown768 {
+    display: none;
+    
+}
+.Xiaomidropdown320 img {
+    display: none;
+}
+.dropdownApple320 img {
+    display: none;
+}
+.Xiaomidropdown768 img {
+    display: none;
+}
+.dropdownApple768 img {
+    display: none;
+}
+.XiaomiList768 {
+    display: none;
+}
+.AppleList768 {
+    
+        display: none;
+    
+}
+.XiaomiList320 {
+    display: none;
+}
+.AppleList320 {
+    
+        display: none;
+    
+}
+/*.Xiaomi:hover ~ .Xiaomidropdown768  {
+    display: block;
+    position: fixed;
+    top: 31px;
+    left: 312px;
+}*/
+
+
+
+
+/*.XiaomiList768 a:hover {
+    text-decoration: underline;
+}*/
+
+
+
+
+
+    body {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+.mainParagraph {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    width: 600px;
+    font-size: 33pt;
+    
+    color: black;
+    position: absolute;
+    left: 358px;
+    top: 155px;
+
+}
+.minimainParagraph {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 500;
+    width: 500px;
+    font-size: 11pt;
+    color: #181818;
+    position: absolute;
+    left: 365px;
+    top: 324px;
+    
+ 
+}
+.minimainParagraph2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 500;
+    width: 500px;
+    font-size: 11pt;
+    color:  black;
+    position: absolute;
+    left: 365px;
+    top: 349px;
+
+}
+#name_area {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 500;
+    color: black;
+    font-size: 11pt;
+    position: absolute;
+    background-color: #e7e8e8;
+    top: 416px;
+    left: 367px;
+    border-radius: 15px;
+    border-style: none;
+    height: 34px;
+    width: 253px;
+}
+#phoneNumber {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 500;
+    color: black;
+    font-size: 11pt;
+    position: absolute;
+    background-color: #e7e8e8;
+    top: 459px;
+    left: 367px;
+    border-radius: 15px;
+    border-style: none;
+    height: 34px;
+    width: 253px;
+}
+.orderCall {
+    position: absolute;
+    left: 367px;
+    top: 510px;
+    background-color: #599a49;
+    border-radius: 15px;
+    border-color: #599a49;
+    border-style: none; 
+    height: 36px;
+    width: 253px;
+    cursor: pointer;
+}
+.orderCall p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 9pt;
+    letter-spacing: 0px;
+    color: white;
+    position: relative;
+    left:-5px;
+    top: -1px;
+}
+.orderCall:hover {
+    background-color :#3c6330;
+}
+.Polygon1 {
+    position: absolute;
+    top: 430px;
+    left: -8px;
+}
+.Content2 {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 32pt;
+    letter-spacing: 1.5px;
+    width: 1000px; 
+    color: black;
+    position: absolute;
+    top: 847px;
+    left: 515px;
+}
+.Description1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    letter-spacing: 0.5px;
+    width: 1000px; 
+    color: black;
+    position: absolute;
+    top: 969px;
+    left: 445px;
+    text-align: center;
+    line-height: 25px;
+}
+.Description1 strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 600;
+    font-size: 11pt;
+}
+.box1{
+    position: absolute;
+    top: 1110px;
+    left: 348px;
+}
+.box2{
+    position: absolute;
+    top: 1110px;
+    left: 630px;
+}
+.box3{
+    position: absolute;
+    top: 1110px;
+    left: 909px;
+}
+.box4{
+    position: absolute;
+    top: 1110px;
+    left: 1190px;
+}
+.stock {
+    position: absolute;
+    top: 1550px;
+    left: -8px;
+    height: 466px;
+    width: 1920px;
+    background-color: #232323;
+}
+.Polygon2 {
+    position: absolute;
+    top: 1052px;
+    left: 1627px;
+}
+.Stock5 {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 32pt;
+    letter-spacing: 1.5px;
+    width: 1000px; 
+    color: white;
+    position: absolute;
+    top: 1606px;
+    left: 821px;
+}
+.ContentStock {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    letter-spacing: 0px;
+    width: 1000px; 
+    color: white;
+    position: absolute;
+    top: 1713px;
+    left: 440px;
+    text-align: center;
+    line-height: 25px;
+}
+#name_area2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 500;
+    color: black;
+    font-size: 11pt;
+    position: absolute;
+    background-color: #e7e8e8;
+    top: 1795px;
+    left: 826px;
+    border-radius: 17px;
+    border-style: none;
+    height: 34px;
+    width: 253px;
+}
+#phoneNumber2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 500;
+    color: black;
+    font-size: 11pt;
+    position: absolute;
+    background-color: #e7e8e8;
+    top: 1837px;
+    left: 826px;
+    border-radius: 17px;
+    border-style: none;
+    height: 34px;
+    width: 253px;
+}
+.orderCall2 {
+    position: absolute;
+    left: 828px;
+    top: 1890px;
+    background-color: #599a49;
+    border-radius: 15px;
+    border-color: #599a49;
+    border-style: none; 
+    height: 36px;
+    width: 253px;
+    cursor: pointer;
+}
+.orderCall2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    letter-spacing: 0px;
+    color: white;
+    position: relative;
+    left:-1px;
+    top: -7px;
+}
+.orderCall2:hover {
+    background-color: #3c6330;
+}
+.Polygon3 {
+    position: absolute;
+    top: 2015px;
+    left: -8px;
+}
+.Polygon4 {
+    position: absolute;
+    top: 2179px;
+    left: 1594px;
+}
+.WhyWe {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 32pt;
+    letter-spacing: 0px;
+    width: 1000px; 
+    color: black;
+    position: absolute;
+    top: 2056px;
+    left: 800px;
+}
+.sotaPhone {
+    position: absolute;
+    top: 2204px;
+    left: 630px;
+    width: 631px;
+    height: 610px;
+}
+.SotaPhone768 {
+    display: none;
+}
+.Map {
+    position: absolute;
+    top: 2825px;
+    left: -8px;
+}
+.contacts {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 32pt;
+    letter-spacing: 1.5px;
+    width: 1000px; 
+    color: white;
+    position: absolute;
+    top: 2906px;
+    left: 827px;
+}
+.contactsOne {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 32pt;
+    letter-spacing: 1.5px;
+    width: 1000px; 
+    color: white;
+    position: absolute;
+    top: 3025px;
+    left: 758px;
+} 
+.contactsTwo {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 32pt;
+    letter-spacing: 1.5px;
+    width: 1000px; 
+    color: white;
+    position: absolute;
+    top: 3025px;
+    left: 1022px;
+}
+.street1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    width: 500px; 
+    color: white;
+    position: absolute;
+    top: 3122px;
+    left: 758px;
+}
+.street2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    width: 500px; 
+    color: white;
+    position: absolute;
+    top: 3122px;
+    left: 1026px;
+}
+.map1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    text-decoration: underline;
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 3164px;
+    left: 776px;
+}
+.map2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    text-decoration: underline;
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 3164px;
+    left: 1045px;
+}
+.address1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 3210px;
+    left: 757px;
+    line-height: 24px;
+}
+.address2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 3210px;
+    left: 1026px;
+    line-height: 24px;
+}
+.telAddress1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 3316px;
+    left: 757px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.telAddress2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 11pt;
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 3316px;
+    left: 1026px;
+    line-height: 24px;
+    text-decoration: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    html {
+        max-width: 1024px;
+        height: 2204px;
+        overflow-x: hidden;
+        overflow-x: unset;
+    }
+    body {
+        background-color: #f5f5f6;
+    }
+    .smartjpg {
+        position: absolute;
+        top: -9px;
+        left: 275px;
+        width: 761px;
+        height: 425px;
+    }
+    .background_body {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: 2;
+    }
+    .header {
+        z-index: 1;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        background-color: #232323;
+        width: 100%;
+        height: 33px;
+    }
+    .logo {
+        z-index: 1;
+        position: fixed;
+        top: 4px;
+        left: 106px;
+        height: 25px;
+        width: 24px;
+    }
+    .sota {
+        z-index: 1;
+        font-family: 'CenturyGothic-Bold';
+        color: white;
+        font-size: 9pt;
+        letter-spacing: 0px;
+        position: fixed;
+        top: -7px;
+        left: 129px;
+    }
+    .service {
+        z-index: 1;
+        font-family: 'CenturyGothic-Bold';
+        color: #d6cb1d;
+        font-size: 6pt;
+        letter-spacing: 1.5px;
+        position: fixed;
+        top: 9px;
+        left: 131px;
+    }
+    .choosePhone{
+        z-index: 1;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 6pt;
+        letter-spacing: 0.25px;
+        color: white;
+        position: fixed;
+        left: 201px;
+        top: 2px;
+    }
+    .Xiaomi {
+        z-index: 1;
+        height: 34px;
+        width: 33px;
+        position: fixed;
+        top: 9px;
+        left: 338px;
+    }
+    .Xiaomi img {
+            z-index: 1;
+            height: 28px;
+            width: 19px;
+            position: fixed;
+            top: 3px;
+            left: 338px;
+    }
+    .Apple {
+        z-index: 1;
+        height: 29px;
+        width: 33px;
+        position: fixed;
+        top: 6px;
+        left: 368px;
+    }
+    .Apple img  {
+        z-index: 1;
+        height: 20px;
+        width: 33px;
+        position: fixed;
+        top: 5px;
+        left: 359px;
+    }
+    .phoneNumber {
+        z-index: 1;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 900;
+        text-decoration: none;
+        font-size: 6pt;
+        letter-spacing: 0.3px;
+        color: white;
+        position: fixed;
+        left: 618px;
+        top: 11px;
+    }
+    .checkStatus {
+        z-index: 1;
+        position: fixed;
+        left: 720px;
+        top: 7px;
+        background-color: #599a49;
+        border-radius: 15px;
+        border-color: #599a49;
+        border-style: none;
+        height: 17px;
+        width: 119px;
+        cursor: pointer;
+    }
+    .checkStatus p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 5pt;
+        letter-spacing: 0px;
+        color: white;
+        position: fixed;
+        left: 733px;
+        top: 5px;
+    }
+    .checkStatus:hover {
+        background-color: #3c6330;
+    }
+    
+    input {
+        text-align: center;
+    }
+    
+    .Xiaomidropdown {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+        
+    }
+    .Xiaomi:hover ~ .Xiaomidropdown  {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .Xiaomidropdown:hover {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .Xiaomidropdown img{
+     
+        position: fixed;
+        top: -1px;
+        left: 91px;
+        width: 850px;
+        height: 200px;
+    }
+    .XiaomiList1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 138px;
+        line-height: 17px;
+    }
+    
+    .XiaomiList2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 238px;
+        line-height: 17px;
+    }
+    .XiaomiList3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 327px;
+        line-height: 17px;
+    }
+    .XiaomiList4 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 434px;
+        line-height: 17px;
+    }
+    .XiaomiList5 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 547px;
+        line-height: 17px;
+    }
+    .XiaomiList6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 656px;
+        line-height: 17px;
+    }
+    .XiaomiList7 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 767px;
+        line-height: 17px;
+    }
+    
+    .XiaomiList1 a {
+        text-decoration: none;
+        color: black;
+    }
+    .XiaomiList1 a:hover {
+        text-decoration: underline;
+    }
+    .XiaomiList2 a {
+        text-decoration: none;
+        color: black;
+    }
+    .XiaomiList2 a:hover {
+        text-decoration: underline;
+    }
+    .XiaomiList3 a {
+        text-decoration: none;
+        color: black;
+    }
+    .XiaomiList3 a:hover {
+        text-decoration: underline;
+    }
+    .XiaomiList4 a {
+        text-decoration: none;
+        color: black;
+    }
+    .XiaomiList4 a:hover {
+        text-decoration: underline;
+    }
+    .XiaomiList5 a {
+        text-decoration: none;
+        color: black;
+    }
+    .XiaomiList5 a:hover {
+        text-decoration: underline;
+    }
+    .XiaomiList6 a {
+        text-decoration: none;
+        color: black;
+    }
+    .XiaomiList6 a:hover {
+        text-decoration: underline;
+    }
+    .XiaomiList7 a {
+        text-decoration: none;
+        color: black;
+    }
+    .XiaomiList7 a:hover {
+        text-decoration: underline;
+    }
+    
+    /*.AppleDropdownOn {
+        display: block;
+    }
+    .AppleDropdownOff {
+        display: none;
+    }*/
+    
+    .dropdownApple {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+    }
+    .Apple:hover ~ .dropdownApple {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .dropdownApple:hover {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .dropdownApple img{
+     
+        position: fixed;
+        top: 1px;
+        left: 120px;
+        width: 850px;
+        height: 200px;
+    }
+    .AppleList1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 165px;
+        line-height: 17px;
+    }
+    
+    .AppleList2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 263px;
+        line-height: 17px;
+    }
+    .AppleList3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 351px;
+        line-height: 17px;
+    }
+    .AppleList4 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 447px;
+        line-height: 17px;
+    }
+    .AppleList5 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 564px;
+        line-height: 17px;
+    }
+    .AppleList6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 674px;
+        line-height: 17px;
+    }
+    .AppleList7 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 36px;
+        left: 788px;
+        line-height: 17px;
+    }
+    
+    .AppleList1 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList1 a:hover {
+        text-decoration: underline;
+    }
+    .AppleList2 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList2 a:hover {
+        text-decoration: underline;
+    }
+    .AppleList3 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList3 a:hover {
+        text-decoration: underline;
+    }
+    .AppleList4 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList4 a:hover {
+        text-decoration: underline;
+    }
+    .AppleList5 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList5 a:hover {
+        text-decoration: underline;
+    }
+    .AppleList6 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList6 a:hover {
+        text-decoration: underline;
+    }
+    .AppleList7 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList7 a:hover {
+        text-decoration: underline;
+    }
+
+    .Xiaomidropdown320:hover {
+        display: none;
+    }
+    .Xiaomidropdown320 img {
+        display: none;
+    }
+    .XiaomiList320 {
+        display: none;
+    }
+    .XiaomiList320 a {
+        display: none;
+    }
+
+    .dropdownApple320 {
+        display: none;
+        
+    }
+    .Apple:hover ~ .dropdownApple320  {
+        display: none;
+    }
+    .dropdownApple320:hover {
+        display: none;
+    }
+    .dropdownApple320 img  {
+        display: none;
+    }
+    .AppleList320 {
+        display: none;
+    }
+    .AppleList320 a {
+        display: none;
+    }
+    .AppleList320 a:hover {
+        display: none;
+    }
+    
+
+
+
+    .Xiaomidropdown768:hover {
+        display: none;
+    }
+    .Xiaomidropdown768 img {
+        display: none;
+    }
+    .XiaomiList768 {
+        display: none;
+    }
+    .XiaomiList768 a {
+        display: none;
+    }
+
+    .dropdownApple768 {
+        display: none;
+        
+    }
+    .Apple:hover ~ .dropdownApple768  {
+        display: none;
+    }
+    .dropdownApple768:hover {
+        display: none;
+    }
+    .dropdownApple768 img  {
+        display: none;
+    }
+    .AppleList768 {
+        display: none;
+    }
+    .AppleList768 a {
+        display: none;
+    }
+    .AppleList768 a:hover {
+        display: none;
+    }
+    /*.smartphone {
+        position: absolute;
+        top:161px;
+        left: 900px;
+        height: 400px;
+        width: 900px;
+        z-index: 1;
+    */
+        body {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+    .mainParagraph {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        width: 600px;
+        font-size: 19pt;
+        color: black;
+        position: absolute;
+        left: 191px;
+        top: 79px;
+    
+    }
+    .minimainParagraph {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 500;
+        width: 500px;
+        font-size: 6pt;
+        color: #181818;
+        position: absolute;
+        left: 194px;
+        top: 173px;
+        
+     
+    }
+    .minimainParagraph2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 500;
+        width: 500px;
+        font-size: 6pt;
+        color: black;
+        position: absolute;
+        left: 194px;
+        top: 186px;
+    
+    }
+    #name_area {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 7pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 222px;
+        left: 193px;
+        border-radius: 15px;
+        border-style: none;
+        height: 17px;
+        width: 139px;
+    }
+    #phoneNumber {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 7pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 246px;
+        left: 193px;
+        border-radius: 15px;
+        border-style: none;
+        height: 17px;
+        width: 139px;
+    }
+    .orderCall {
+        position: absolute;
+        left: 194px;
+        top: 276px;
+        background-color: #599a49;
+        border-radius: 15px;
+        border-color: #599a49;
+        border-style: none;
+        height: 17px;
+        width: 139px;
+        cursor: pointer;
+    }
+    .orderCall p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 5pt;
+        letter-spacing: 0px;
+        color: white;
+        position: relative;
+        left: 2px;
+        top: -2px;
+    }
+    .orderCall:hover {
+        background-color :#3c6330;
+    }
+    .Polygon1 {
+        position: absolute;
+        top: 231px;
+        left: -8px;
+        width: 167px;
+        height: 405.5px;
+    }
+    .Content2 {
+        font-family: 'Montserrat-ExtraBold', sans-serif;
+        font-weight: 800;
+        font-size: 18pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: black;
+        position: absolute;
+        top: 470px;
+        left: 271px;
+    }
+    .Description1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 6pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: black;
+        position: absolute;
+        top: 536px;
+        left: 3px;
+        text-align: center;
+        line-height: 14px;
+    }
+    .Description1 strong {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 600;
+        font-size: 6pt;
+    }
+    .box1{
+        position: absolute;
+        top: 536px;
+        left: 179px;
+        width: 177px;
+        height: 343px;
+    }
+    .box2{
+        position: absolute;
+        top: 536px;
+        left: 335px;
+        width: 177px;
+        height: 343px;
+    }
+    .box3{
+        position: absolute;
+        top: 536px;
+        left: 487px;
+        width: 177px;
+        height: 343px;
+    }
+    .box4{
+        position: absolute;
+        top: 536px;
+        left: 641px;
+        width: 177px;
+        height: 343px;
+    }
+    .stock {
+        position: absolute;
+        top: 856px;
+        left: -8px;
+        height: 254px;
+        width: 1920px;
+        background-color: #232323;
+    }
+    .Polygon2 {
+        position: absolute;
+        top: 583px;
+        left: 874px;
+        height: 405px;
+        width: 167px;
+    }
+    .Stock5 {
+        font-family: 'Montserrat-ExtraBold', sans-serif;
+        font-weight: 800;
+        font-size: 19pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 883px;
+        left: 436px;
+    }
+    .ContentStock {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 6pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 938px;
+        left: 5px;
+        text-align: center;
+        line-height: 25px;
+    }
+    #name_area2 {
+        font-family: 'Montserrat', sans-serif;
+
+font-weight: 400;
+font-weight: 500;
+color: black;
+font-size: 6pt;
+position: absolute;
+background-color: #e7e8e8;
+top: 988px;
+left: 440px;
+border-radius: 17px;
+border-style: none;
+height: 19px;
+width: 140px;
+    }
+    #phoneNumber2 {
+        font-weight: 400;
+font-weight: 500;
+color: black;
+font-size: 6pt;
+position: absolute;
+background-color: #e7e8e8;
+top: 1012px;
+left: 440px;
+border-radius: 17px;
+border-style: none;
+height: 19px;
+width: 140px;
+    }
+    .orderCall2 {
+        position: absolute;
+        left: 440px;
+        top: 1040px;
+        background-color: #599a49;
+        border-radius: 15px;
+        border-color: #599a49;
+        border-style: none;
+        height: 21px;
+        width: 140px;
+        cursor: pointer;
+    }
+    .orderCall2 p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 6pt;
+        letter-spacing: 0px;
+        color: white;
+        position: relative;
+        left: 0px;
+        top: -3px;
+
+    }
+    .orderCall2:hover {
+        background-color: #3c6330;
+    }
+    .Polygon3 {
+        position: absolute;
+        top: 1083px;
+        left: -89px;
+        width: 223px;
+        height: 517px;
+
+    }
+    .Polygon4 {
+        position: absolute;
+        top: 1205px;
+        left: 875px;
+        width: 262px;
+        height: 411px;
+    }
+    .WhyWe {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 21pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: black;
+        position: absolute;
+        top: 1134px;
+        left: 408px;
+    }
+    .sotaPhone {
+        position: absolute;
+        top: 1218px;
+        left: 305px;
+        width: 387px;
+        height: 391px;
+    }
+    .SotaPhone768 {
+        display: none;
+    }
+    .Map {
+        position: absolute;
+        top: 1616px;
+        left: -118px;
+        width: 1524px;
+        height: 580px;
+    }
+    .contacts {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 25pt;
+        letter-spacing: 1.5px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 1683px;
+        left: 418px;
+    }
+    .contactsOne {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 27pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 1772px;
+        left: 361px;
+    } 
+    .contactsTwo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 27pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 1772px;
+        left: 571px;
+    }
+    .street1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1852px;
+        left: 361px;
+    }
+    .street2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1852px;
+        left: 574px;
+    }
+    .map1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        text-decoration: underline;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1885px;
+        left: 376px;
+    }
+    .map2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        text-decoration: underline;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1885px;
+        left: 590px;
+    }
+    .address1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1917px;
+        left: 361px;
+        line-height: 22px;
+    }
+    .address2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1917px;
+        left: 575px;
+        line-height: 22px;
+    }
+    .telAddress1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 2003px;
+        left: 362px;
+        line-height: 24px;
+        text-decoration: none;
+    }
+    .telAddress2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 2003px;
+        left: 575px;
+        line-height: 24px;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    html {
+        max-width: 768px;
+        height: 5169px;
+        overflow-x: hidden;
+    }
+    body {
+        background-color: #f5f5f6;
+    }
+    .smartjpg {
+        position: absolute;
+        top: 39px;
+        left: -401px;
+        width: 1915px;
+        height: 1024px;
+    }
+    .background_body {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: 2;
+    }
+    .header {
+        z-index: 2;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        background-color: #232323;
+        width: 100%;
+        height: 122px;
+    }
+    .logo {
+        display: none;
+        
+    }
+    .sota {
+        display: none;
+        
+    }
+    .service {
+        display: none;
+        
+    }
+    .choosePhone {
+        z-index: 2;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 19pt;
+        letter-spacing: 0.25px;
+        color: white;
+        position: fixed;
+        left: 61px;
+        top: 16px;
+    }
+    .Xiaomi {
+        z-index: 2;
+        height: 34px;
+        width: 33px;
+        position: fixed;
+        top: 9px;
+        left: 338px;
+    }
+    
+    .Xiaomi img {
+        z-index: 2;
+        height: 50px;
+        width: 78px;
+        position: fixed;
+        top: 39px;
+        left: 504px;
+    }
+    .Apple {
+        z-index: 2;
+        height: 29px;
+        width: 33px;
+        position: fixed;
+        top: 6px;
+        left: 368px;
+    }
+    .Apple img  {
+        z-index: 2;
+        height: 71px;
+        width: 61px;
+        position: fixed;
+        top: 23px;
+        left: 644px;
+    }
+    .phoneNumber {
+        z-index: 1;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        font-size: 17pt;
+        letter-spacing: 0.3px;
+        color: black;
+        position: absolute;
+        left: 20px;
+        top: 183px;
+        width: 400px;
+    }
+    .checkStatus {
+        z-index: 1;
+        position: absolute;
+        left: 42px;
+        top: 450px;
+        background-color: #599a49;
+        border-radius: 5px;
+        border-color: #599a49;
+        border-style: none;
+        height: 49px;
+        width: 350px;
+        cursor: pointer;
+    }
+    .checkStatus p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 15pt;
+        letter-spacing: 0px;
+        color: white;
+        position: absolute;
+        left: -24px;
+        top: -8px;
+        width: 400px;
+    }
+    .checkStatus:hover {
+        background-color: #3c6330;
+    }
+    
+    input {
+        text-align: center;
+    }
+    
+    .Xiaomidropdown {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+        
+    }
+    
+    .Xiaomidropdown img{
+     
+        display: none;
+    }
+    .XiaomiList1 {
+        display: none;
+    }
+    
+    .XiaomiList2 {
+        display: none;
+    }
+    .XiaomiList3 {
+        display: none;
+    }
+    .XiaomiList4 {
+        display: none;
+    }
+    .XiaomiList5 {
+        display: none;
+    }
+    .XiaomiList6 {
+        display: none;
+    }
+    .XiaomiList7 {
+        display: none;
+    }
+    
+    .XiaomiList1 a {
+        display: none;
+    }
+    .XiaomiList2 a {
+        display: none;
+    }
+    
+    .XiaomiList3 a {
+        display: none;
+    }
+    
+    .XiaomiList4 a {
+        display: none;
+    }
+    
+    .XiaomiList5 a {
+        display: none;
+    }
+   
+    .XiaomiList6 a {
+        display: none;
+    }
+    
+    .XiaomiList7 a {
+        display: none;
+    }
+    
+    
+    
+    
+    
+    .dropdownApple {
+        display: none;
+       
+    }
+   
+    
+    .dropdownApple img{
+        display: none;
+    }
+    .AppleList1 {
+        display: none;
+    }
+    
+    .AppleList2 {
+        display: none;
+    }
+    .AppleList3 {
+        display: none;
+    }
+    .AppleList4 {
+        display: none;
+    }
+    .AppleList5 {
+        display: none;
+    }
+    .AppleList6 {
+        display: none;
+    }
+    .AppleList7 {
+        display: none;
+    }
+    
+    .AppleList1 a {
+        display: none;
+    }
+  
+    .AppleList2 a {
+        display: none;
+    }
+    
+    .AppleList3 a {
+        display: none;
+    }
+    
+    .AppleList4 a {
+        display: none;
+    }
+    
+    .AppleList5 a {
+        display: none;
+    }
+    
+    .AppleList6 a {
+        display: none;
+    }
+    
+    .AppleList7 a {
+        display: none;
+    }
+    .Xiaomidropdown320 {
+        display: none;
+        
+    }
+
+    /*.Xiaomi:hover ~ .Xiaomidropdown320  {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }*/
+    
+    .Xiaomidropdown320 img {
+        display: none;
+    }
+    .XiaomiList320 {
+        display: none;
+    }
+    .XiaomiList320 a {
+        display: none;
+    }
+
+    .dropdownApple320 {
+        display: none;
+        
+    }
+    
+    
+    .dropdownApple320 img  {
+        display: none;
+    }
+    .AppleList320 {
+        display: none;
+    }
+    .AppleList320 a {
+        display: none;
+    }
+    .AppleList320 a:hover {
+        display: none;
+    }
+
+    .Xiaomidropdown768 {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+        
+    }
+    .Xiaomi:hover ~ .Xiaomidropdown768  {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .Xiaomidropdown768:hover {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    
+    .Xiaomidropdown768 img{
+            position: fixed;
+            top: 77px;
+            left: -50px;
+            width: 850px;
+            height: 800px;
+        }
+    .XiaomiList768 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 11pt;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 117px;
+        left: 311px;
+        line-height: 29px;
+    }
+    .XiaomiList768 a {
+        text-decoration: none;
+        color: black;
+    }
+    .XiaomiList768 a:hover {
+        text-decoration: underline;
+    }
+
+    .dropdownApple768 {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+        
+    }
+    .Apple:hover ~ .dropdownApple768  {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .dropdownApple768:hover {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .dropdownApple768 img{
+            position: fixed;
+            top: 77px;
+            left: -50px;
+            width: 850px;
+            height: 800px;
+        }
+    .AppleList768 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 11pt;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 117px;
+        left: 311px;
+        line-height: 29px;
+    }
+    .AppleList768 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList768 a:hover {
+        text-decoration: underline;
+    }
+    /*.smartphone {
+        position: absolute;
+        top:161px;
+        left: 900px;
+        height: 400px;
+        width: 900px;
+        z-index: 1;
+    */
+        body {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+    .mainParagraph {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        width: 334px;
+        font-size: 32pt;
+        color: black;
+        position: absolute;
+        left: 39px;
+        top: 110px;
+        line-height: 64px;
+    }
+    .minimainParagraph {
+        display: none;
+    }
+    .minimainParagraph2 {
+        display: none;
+    }
+    #name_area {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 18pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 1018px;
+        left: 171px;
+        border-radius: 5px;
+        border-style: none;
+        height: 56px;
+        width: 391px;
+    }
+    #phoneNumber {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 18pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 1080px;
+        left: 171px;
+        border-radius: 5px;
+        border-style: none;
+        height: 56px;
+        width: 391px;
+    }
+    .orderCall {
+        position: absolute;
+        left: 171px;
+        top: 1165px;
+        background-color: #599a49;
+        border-radius: 5px;
+        border-color: #599a49;
+        border-style: none;
+        height: 56px;
+        width: 394px;
+        cursor: pointer;
+    }
+    .orderCall p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 18pt;
+        letter-spacing: 0px;
+        color: white;
+        position: relative;
+        left: -3px;
+        top: -10px;
+    }
+    .orderCall:hover {
+        background-color :#3c6330;
+    }
+    .Polygon1 {
+        display: none;
+    }
+    .Content2 {
+        font-family: 'Montserrat-ExtraBold', sans-serif;
+        font-weight: 800;
+        font-size: 24pt;
+        letter-spacing: 0px;
+        width: 498px;
+        color: black;
+        position: absolute;
+        top: 1287px;
+        left: 221px;
+        line-height: 46px;
+    }
+    .Description1 {
+        display: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 6pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: black;
+        position: absolute;
+        top: 536px;
+        left: 3px;
+        text-align: center;
+        line-height: 14px;
+    }
+    .Description1 strong {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 600;
+        font-size: 6pt;
+    }
+    .box1 {
+        position: absolute;
+        top: 1396px;
+        left: 49px;
+        width: 346px;
+        height: 420px;
+    }
+    .box2 {
+        position: absolute;
+        top: 1396px;
+        left: 351px;
+        width: 343px;
+        height: 419px;
+    }
+    .box3 {
+        position: absolute;
+        top: 1717px;
+        left: 49px;
+        width: 346px;
+        height: 420px;
+    }
+    .box4 {
+        position: absolute;
+        top: 1717px;
+        left: 351px;
+        width: 343px;
+        height: 419px;
+    }
+    .stock {
+        position: absolute;
+        top: 2097px;
+        left: -8px;
+        height: 481px;
+        width: 1024px;
+        background-color: #232323;
+    }
+    .Polygon2 {
+        display: none;
+    }
+    .Stock5 {
+        font-family: 'Montserrat-ExtraBold', sans-serif;
+        font-weight: 800;
+        font-size: 42pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 2091px;
+        left: 220px;
+    }
+    .ContentStock {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 17pt;
+        letter-spacing: 0px;
+        width: 516px;
+        color: white;
+        position: absolute;
+        top: 2232px;
+        left: 130px;
+        text-align: center;
+        line-height: 30px;
+    }
+    #name_area2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 16pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 2348px;
+        left: 234px;
+        border-radius: 5px;
+        border-style: none;
+        height: 41px;
+        width: 315px;
+    }
+    #phoneNumber2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 16pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 2401px;
+        left: 234px;
+        border-radius: 5px;
+        border-style: none;
+        height: 41px;
+        width: 315px;
+    }
+    .orderCall2 {
+        position: absolute;
+        top: 2465px;
+        left: 234px;
+        background-color: #599a49;
+        border-radius: 5px;
+        border-color: #599a49;
+        border-style: none;
+        height: 42px;
+        width: 316px;
+        cursor: pointer;
+    }
+    .orderCall2 p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        letter-spacing: 0px;
+        color: white;
+        position: relative;
+        left: 0px;
+        top: -11px;
+    }
+    .orderCall2:hover {
+        background-color: #3c6330;
+    }
+    .Polygon3 {
+        display: none;
+    }
+    .Polygon4 {
+       display:none;
+    }
+    .WhyWe {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 41pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: black;
+        position: absolute;
+        top: 2626px;
+        left: 190px;
+    }
+    .sotaPhone {
+        display: none;
+    }
+    .SotaPhone768 {
+        display: block;
+        position: absolute;
+        top: 2805px;
+        left: -138px;
+        width: 1019px;
+        height: 1030px;
+    }
+    .Map {
+        position: absolute;
+        top: 3866px;
+        left: -618px;
+        width: 2424px;
+        height: 1295px;
+    }
+    .contacts {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 41pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 3929px;
+        left: 222px;
+    }
+    .contactsOne {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 52pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 4108px;
+        left: 226px;
+    } 
+    .contactsTwo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 52pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 4580px;
+        left: 226px;
+    }
+    .street1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 19pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 4263px;
+        left: 233px;
+    }
+    .street2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 19pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 4732px;
+        left: 233px;
+    }
+    .map1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 19pt;
+        text-decoration: underline;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 4337px;
+        left: 230px;
+    }
+    .map2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 19pt;
+        text-decoration: underline;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 4806px;
+        left: 230px;
+    }
+    .address1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 23pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 4360px;
+        left: 230px;
+        line-height: 44px;
+    }
+    .address2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 23pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 4829px;
+        left: 230px;
+        line-height: 44px;
+    }
+    .telAddress1 {
+        display: none;
+    }
+    .telAddress2 {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+    html {
+        max-width: 320px;
+        height: 2295px;
+        overflow-x: hidden;
+    }
+    body {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background-color: #f5f5f6;
+    }
+    .smartjpg {
+        position: absolute;
+        top: -54%;
+        width: 1028px;
+        height: 525px;
+        left: -17em;
+    }
+    .background_body {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: 2;
+    }
+    .header  {
+        z-index: 2;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        background-color: #232323;
+        width: 100%;
+        height: 8.3%;
+    }
+    .logo {
+        display: none;
+        
+    }
+    .sota {
+        display: none;
+        
+    }
+    .service {
+        display: none;
+        
+    }
+    .choosePhone {
+        z-index: 2;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        letter-spacing: 0;
+        color: white;
+        position: fixed;
+        left: 7%;
+        top: 1%;
+    }
+    .Xiaomi {
+        z-index: 2;
+        height: 6%;
+        width: 9%;
+        position: fixed;
+        top: 1.3%;
+        left: 68%;
+    }
+    
+    .Xiaomi img {
+        z-index: 2;
+        height: 6%;
+        width: 9%;
+        position: fixed;
+        top: 1.3%;
+        left: 68%;
+    }
+    .Apple {
+        z-index: 2;
+        height: 10%;
+        width: 7%;
+        position: fixed;
+        top: -1%;
+        left: 84%;
+    }
+    .Apple img  {
+        z-index: 2;
+        height: 10%;
+        width: 7%;
+        position: fixed;
+        top: -1%;
+        left: 84%;
+    }
+    .phoneNumber {
+        z-index: 1;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        font-size: 8pt;
+        letter-spacing: 0.3px;
+        color: black;
+        position: absolute;
+        left: 6px;
+        top: 71px;
+        width: 400px;
+    }
+    .checkStatus {
+        z-index: 1;
+        position: absolute;
+        left: 10px;
+        top: 183px;
+        background-color: #599a49;
+        border-radius: 5px;
+        border-color: #599a49;
+        border-style: none;
+        height: 20px;
+        width: 155px;
+        cursor: pointer;
+    }
+    .checkStatus p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 7pt;
+        letter-spacing: 0px;
+        color: white;
+        position: absolute;
+        left: -121px;
+        top: -5px;
+        width: 400px;
+    }
+    .checkStatus:hover {
+        background-color: #3c6330;
+    }
+    
+    input {
+        text-align: center;
+    }
+    
+    .Xiaomidropdown {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+        
+    }
+    
+    .Xiaomidropdown img{
+     
+        display: none;
+    }
+    .XiaomiList1 {
+        display: none;
+    }
+    
+    .XiaomiList2 {
+        display: none;
+    }
+    .XiaomiList3 {
+        display: none;
+    }
+    .XiaomiList4 {
+        display: none;
+    }
+    .XiaomiList5 {
+        display: none;
+    }
+    .XiaomiList6 {
+        display: none;
+    }
+    .XiaomiList7 {
+        display: none;
+    }
+    
+    .XiaomiList1 a {
+        display: none;
+    }
+    .XiaomiList2 a {
+        display: none;
+    }
+    
+    .XiaomiList3 a {
+        display: none;
+    }
+    
+    .XiaomiList4 a {
+        display: none;
+    }
+    
+    .XiaomiList5 a {
+        display: none;
+    }
+   
+    .XiaomiList6 a {
+        display: none;
+    }
+    
+    .XiaomiList7 a {
+        display: none;
+    }
+    
+    
+    .Xiaomidropdown768 {
+        display: none;
+        
+    }
+    /*.Xiaomi:hover ~ .Xiaomidropdown768  {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }*/
+    .Xiaomidropdown768:hover {
+        display: none;
+    }
+    .Xiaomidropdown768 img {
+        display: none;
+    }
+    .XiaomiList768 {
+        display: none;
+    }
+    .XiaomiList768 a {
+        display: none;
+    }
+    /*.XiaomiList768 a:hover {
+        text-decoration: underline;
+    }*/
+
+    .dropdownApple768 {
+        display: none;
+        
+    }
+    .Apple:hover ~ .dropdownApple768  {
+        display: none;
+    }
+    .dropdownApple768:hover {
+        display: none;
+    }
+    .dropdownApple768 img  {
+        display: none;
+    }
+    .AppleList768 {
+        display: none;
+    }
+    .AppleList768 a {
+        display: none;
+    }
+    
+
+    .Xiaomidropdown320 {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+        
+    }
+
+    /*.Xiaomi:hover ~ .Xiaomidropdown320  {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }*/
+    .Xiaomidropdown320:hover {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .Xiaomidropdown320 img {
+        position: fixed;
+        top: 31px;
+        left: -113px;
+        width: 547px;
+        height: 519px;
+    }
+    .XiaomiList320 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 45px;
+        left: 97px;
+        line-height: 24px;
+    }
+    .XiaomiList320 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdownApple320 {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+        
+    }
+    .Apple:hover ~ .dropdownApple320  {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .dropdownApple320:hover {
+        display: block;
+        position: fixed;
+        top: 31px;
+        left: 312px;
+    }
+    .dropdownApple320 img  {
+        position: fixed;
+        top: 31px;
+        left: -113px;
+        width: 547px;
+        height: 519px;
+    }
+    .AppleList320 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 9pt;
+        color: black;
+        list-style-type: none;
+        position: fixed;
+        top: 45px;
+        left: 97px;
+        line-height: 24px;
+    }
+    .AppleList320 a {
+        text-decoration: none;
+        color: black;
+    }
+    .AppleList320 a:hover {
+        text-decoration: underline;
+    }
+    /*.AppleDropdownOn {
+        display: block;
+    }
+    .AppleDropdownOff {
+        display: none;
+    }*/
+    
+    .dropdownApple {
+        display: none;
+        position: fixed;
+        top: 31px;
+        left: 260px;
+    }
+    .Apple:hover ~ .dropdownApple {
+        display: none;
+    }
+    .dropdownApple:hover {
+        display: none;
+    }
+    .dropdownApple img{
+        display: none;
+    }
+    .AppleList1 {
+        display: none;
+    }
+    
+    .AppleList2 {
+        display: none;
+    }
+    .AppleList3 {
+        display: none;
+    }
+    .AppleList4 {
+        display: none;
+    }
+    .AppleList5 {
+        display: none;
+    }
+    .AppleList6 {
+        display: none;
+    }
+    .AppleList7 {
+        display: none;
+    }
+    
+    .AppleList1 a {
+        display: none;
+    }
+  
+    .AppleList2 a {
+        display: none;
+    }
+    
+    .AppleList3 a {
+        display: none;
+    }
+    
+    .AppleList4 a {
+        display: none;
+    }
+    
+    .AppleList5 a {
+        display: none;
+    }
+    
+    .AppleList6 a {
+        display: none;
+    }
+    
+    .AppleList7 a {
+        display: none;
+    }
+    
+    /*.smartphone {
+        position: absolute;
+        top:161px;
+        left: 900px;
+        height: 400px;
+        width: 900px;
+        z-index: 1;
+    */
+        body {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+    .mainParagraph {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        width: 200px;
+        font-size: 15pt;
+        color: black;
+        position: absolute;
+        left: 10px;
+        top: 39px;
+        line-height: 28px;
+    }
+    .minimainParagraph {
+        display: none;
+    }
+    .minimainParagraph2 {
+        display: none;
+    }
+    #name_area  {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 8pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 445px;
+        left: 68px;
+        border-radius: 5px;
+        border-style: none;
+        height: 22px;
+        width: 171px;
+    }
+    #phoneNumber {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 8pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 475px;
+        left: 68px;
+        border-radius: 5px;
+        border-style: none;
+        height: 22px;
+        width: 171px;
+    }
+    .orderCall {
+        position: absolute;
+        top: 512px;
+        left: 68px;
+        background-color: #599a49;
+        border-radius: 5px;
+        border-color: #599a49;
+        border-style: none;
+        height: 22px;
+        width: 171px;
+        cursor: pointer;
+    }
+    .orderCall p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 8pt;
+        letter-spacing: 0px;
+        color: white;
+        position: relative;
+        left: -1px;
+        top: -7px;
+    }
+    .orderCall:hover {
+        background-color :#3c6330;
+    }
+    .Polygon1 {
+        display: none;
+    }
+    .Content2 {
+        font-family: 'Montserrat-ExtraBold', sans-serif;
+        font-weight: 800;
+        font-size: 11pt;
+        letter-spacing: 0px;
+        width: 233px;
+        color: black;
+        position: absolute;
+        top: 563px;
+        left: 76px;
+        line-height: 21px;
+    }
+    .Description1 {
+        display: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 6pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: black;
+        position: absolute;
+        top: 536px;
+        left: 3px;
+        text-align: center;
+        line-height: 14px;
+    }
+    .Description1 strong {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-weight: 600;
+        font-size: 6pt;
+    }
+    .box1 {
+        position: absolute;
+        top: 578px;
+        left: 6px;
+        width: 151px;
+        height: 255px;
+    }
+    .box2 {
+        position: absolute;
+        top: 578px;
+        left: 138px;
+        width: 151px;
+        height: 255px;
+    }
+    .box3 {
+        position: absolute;
+        top: 718px;
+        left: 6px;
+        width: 151px;
+        height: 255px;
+    }
+    .box4 {
+        position: absolute;
+        top: 718px;
+        left: 138px;
+        width: 151px;
+        height: 255px;
+    }
+    .stock {
+        position: absolute;
+        top: 922px;
+        left: -8px;
+        height: 211px;
+        width: 1024px;
+        background-color: #232323;
+    }
+    .Polygon2 {
+        display: none;
+    }
+    .Stock5 {
+        font-family: 'Montserrat-ExtraBold', sans-serif;
+        font-weight: 800;
+        font-size: 19pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 920px;
+        left: 82px;
+    }
+    .ContentStock {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 8pt;
+        letter-spacing: 0px;
+        width: 286px;
+        color: white;
+        position: absolute;
+        top: 971px;
+        left: 7px;
+        text-align: center;
+        line-height: 19px;
+    }
+    #name_area2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 8pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 1031px;
+        left: 87px;
+        border-radius: 5px;
+        border-style: none;
+        height: 17px;
+        width: 138px;
+    }
+    #phoneNumber2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: black;
+        font-size: 8pt;
+        position: absolute;
+        background-color: #e7e8e8;
+        top: 1054px;
+        left: 87px;
+        border-radius: 5px;
+        border-style: none;
+        height: 17px;
+        width: 138px;
+    }
+    .orderCall2 {
+        position: absolute;
+        top: 1084px;
+        left: 87px;
+        background-color: #599a49;
+        border-radius: 5px;
+        border-color: #599a49;
+        border-style: none;
+        height: 17px;
+        width: 138px;
+        cursor: pointer;
+    }
+    .orderCall2 p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 7pt;
+        letter-spacing: 0px;
+        color: white;
+        position: relative;
+        left: 0px;
+        top: -7px;
+    }
+    .orderCall2:hover {
+        background-color: #3c6330;
+    }
+    .Polygon3 {
+        display: none;
+    }
+    .Polygon4 {
+       display:none;
+    }
+    .WhyWe {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 18pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: black;
+        position: absolute;
+        top: 1157px;
+        left: 67px;
+    }
+    .sotaPhone {
+        display: none;
+    }
+    .SotaPhone768 {
+        display: block;
+        position: absolute;
+        top: 1235px;
+        left: -119px;
+        width: 531px;
+        height: 455px;
+    }
+    .Map {
+        position: absolute;
+        top: 1702px;
+        left: -618px;
+        width: 1945px;
+        height: 817px;
+    }
+    .contacts {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 18pt;
+        letter-spacing: 0px;
+        width: 1000px;
+        color: white;
+        position: absolute;
+        top: 1731px;
+        left: 85px;
+    }
+    .contactsOne {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 22pt;
+        width: 100px;
+        color: white;
+        position: absolute;
+        top: 1816px;
+        left: 85px;
+    }
+    .contactsTwo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 22pt;
+        width: 100px;
+        color: white;
+        position: absolute;
+        top: 2028px;
+        left: 85px;
+    }
+    .street1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1877px;
+        left: 88px;
+    }
+    .street2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 10pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 2089px;
+        left: 88px;
+    }
+    .map1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 11pt;
+        text-decoration: underline;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1911px;
+        left: 86px;
+    }
+    .map2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 11pt;
+        text-decoration: underline;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 2123px;
+        left: 86px;
+    }
+    .address1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 12pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 1923px;
+        left: 87px;
+        line-height: 19px;
+    }
+    .address2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 12pt;
+        width: 500px;
+        color: white;
+        position: absolute;
+        top: 2141px;
+        left: 87px;
+        line-height: 19px;
+    }
+    .telAddress1 {
+        display: none;
+    }
+    .telAddress2 {
+        display: none;
+    }
+}
